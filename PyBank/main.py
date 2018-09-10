@@ -52,3 +52,4 @@ with open(output_path, 'w', newline='') as csvfile:
     csvwriter.writerow([f"Average Change: ${ave}", ''])
     csvwriter.writerow([f"Greatest increase in profits:{maxdate} ${maximum}", ''])
     csvwriter.writerow([f"Greatest decrease in profits:{mindate} ${minimum}", ''])
+
